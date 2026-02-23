@@ -10,5 +10,5 @@ for i in range(1, n):
                 dp[i][j] = max(dp[i][j], dp[i-1][k] + a[i][j])
         print(dp)
 
-print(dp)
+# print(dp)
 print(max(dp[n-1]))
